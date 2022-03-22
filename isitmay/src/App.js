@@ -16,7 +16,7 @@ function App() {
   }
   useEffect(() => {
     getmonthStatus();
-    }, []);
+    }, );
 
   
   const month = new Date()
