@@ -7,7 +7,7 @@ function App() {
   const [monthStatus, setmonthStatus] = useState()
 
   async function getmonthStatus() {
-    if (month.getMonth() == 4) {
+    if (month.getMonth() === 4) {
       setmonthStatus('Yes')
     }
     else {
