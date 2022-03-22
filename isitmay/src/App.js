@@ -11,7 +11,7 @@ function App() {
       setmonthStatus('Yes')
     }
     else {
-      setmonthStatus('No')
+      setmonthStatus('Amazingly, still No')
     }
   }
   useEffect(() => {
