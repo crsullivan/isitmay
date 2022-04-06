@@ -11,7 +11,7 @@ function App() {
       setmonthStatus('Yes')
     }
     else {
-      setmonthStatus('Amazingly, still No')
+      setmonthStatus('Survey says: No')
     }
   }
   useEffect(() => {
